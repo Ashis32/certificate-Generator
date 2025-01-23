@@ -17,7 +17,7 @@ def generate_certificate():
     draw = ImageDraw.Draw(template)
     
     # Define font and size
-    font_size = 380  # Adjust this size as needed
+    font_size = 80  # Adjust this size as needed
     font_path = 'PlaywriteCU-VariableFont_wght.ttf'  # Path to your stylish font file
     font = ImageFont.truetype(font_path, font_size)  # Use the stylish font file
     
