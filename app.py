@@ -13,12 +13,12 @@ def generate_certificate():
     name = request.form['name']
     
     # Load your certificate template (replace with your template file path)
-    template = Image.open(r'D:\MLSA Initiative\certificate.png')  # Use raw string or forward slashes
+    template = Image.open(r'certificate.png')  # Use raw string or forward slashes
     draw = ImageDraw.Draw(template)
     
     # Define font and size
     font_size = 380  # Adjust this size as needed
-    font_path = 'D:\MLSA Initiative\PlaywriteCU-VariableFont_wght.ttf'  # Path to your stylish font file
+    font_path = 'D:\PlaywriteCU-VariableFont_wght.ttf'  # Path to your stylish font file
     font = ImageFont.truetype(font_path, font_size)  # Use the stylish font file
     
     # Get the dimensions of the certificate and text
